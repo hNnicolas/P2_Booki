@@ -45,7 +45,7 @@ Booki/
 ## 👨‍💻 Auteur
 
 Nicolas Huang  
-[Profil GitHub](https://github.com/hNnicolas)  
+[Profil GitHub](https://github.com/hNnicolas/P2_Booki)
 
 ## ✅ Statut
 
