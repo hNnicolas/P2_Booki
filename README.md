@@ -7,6 +7,10 @@
 Booki est un site web statique de réservation de logements et d’activités, développé en HTML et CSS.  
 L’objectif était de reproduire une maquette fournie en respectant les contraintes d’intégration responsive.
 
+## Aperçu du rendu :
+
+![Aperçu du site Booki](Images+Booki/Images-Booki/logo/Booki_screenshot.png)
+
 ## 🛠️ Technologies utilisées
 
 - HTML5
