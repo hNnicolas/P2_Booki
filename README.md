@@ -55,3 +55,5 @@ Nicolas Huang
 
 Projet terminé ✅  
 Reproduit selon les maquettes fournies dans le cadre de la formation OpenClassrooms.
+
+🔗 [Voir le site en ligne](https://p2-booki.netlify.app/)
