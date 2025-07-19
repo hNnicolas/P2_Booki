@@ -30,10 +30,11 @@ Le site est entièrement responsive et s’adapte aux résolutions suivantes :
 
 ```
 Booki/
+├── css
+├── Images/ (dossier d'images fourni)
 ├── index.html
-├── style.css
-├── Images+Booki/ (dossier d'images fourni)
-└── note.txt (fichier de consignes ou notes de travail)
+├── note.txt (fichier de consignes ou notes de travail)
+└── README.md
 ```
 
 ## 🚀 Lancer le projet
