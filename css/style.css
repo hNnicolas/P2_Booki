@@ -30,7 +30,7 @@ p {
     font-size: 14px;
 }
 
-/*header_nav*/
+/* header_nav */
 nav {
     display: flex;
     align-items: center;
@@ -51,9 +51,9 @@ li {
     border-top: solid 2px var(--primary-color);
     color: var(--primary-color);
 }
-/*header_nav*/
+/* header_nav */
 
-/*header_search*/
+/* header_search */
 form {
     display: flex;
 }
@@ -93,7 +93,7 @@ button {
 .fa-magnifying-glass {
     color: #ffffff;
 }
-/*header_search*/
+/* header_search*/
 
 /*header_filters*/
 .filter {
