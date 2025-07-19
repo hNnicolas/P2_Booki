@@ -9,7 +9,7 @@ L’objectif était de reproduire une maquette fournie en respectant les contrai
 
 ## Aperçu du rendu :
 
-![Aperçu du site Booki](Images+Booki/Images-Booki/logo/Booki_screenshot.png)
+![Aperçu du site Booki](Images/logo/Booki_screenshot.png)
 
 ## 🛠️ Technologies utilisées
 
