@@ -12,7 +12,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   color: black;
-  margin: 0;
+  margin: 10px 48px;
   padding: 0;
   background-color: white;
 }
@@ -26,8 +26,8 @@ body {
 h1 {
   font-size: 22px;
   font-weight: 700;
-  margin: 10px 0 30px 0;
-  margin: 0;
+  margin: 40px 0px;
+  margin-bottom: 10px;
 }
 
 h2 {
@@ -35,9 +35,29 @@ h2 {
   font-weight: 700;
 }
 
+h4 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 1px -6px;
+  padding: 0px;
+  margin-bottom: 33px;
+}
+
+h5 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 10px 0px;
+}
+
+h6 {
+  font-size: 18px;
+  margin-top: 0px;
+}
 /* Paragraphes */
 p {
-  font-size: 14px;
+  font-size: 16px;
+  padding: 0px;
+  margin-top: 10px;
 }
 
 /* Champs avec placeholder */
@@ -53,6 +73,13 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+  margin-right: 0;
+}
+
 .logo {
   max-width: 61px;
   margin: 20px 0;
@@ -75,16 +102,30 @@ li {
 form {
   display: flex;
 }
+
+.search-container {
+  border-radius: 15px;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  max-width: 500px;
+  width: 100%;
+  margin-top: 20px;
+}
+
 .position-search {
   background: var(--grey);
   border-radius: 15px 0px 0px 15px;
   padding: 16px;
+  margin: 7px 0px;
 }
 
 input {
   border: none;
   outline: none;
   width: 100%;
+  font-size: 18px;
+  margin: 20px;
 }
 
 .form {
@@ -103,7 +144,9 @@ button {
   border-radius: 0px 15px 15px 0px;
   border: 1px solid var(--primary-color);
   color: white;
-  padding: 16px;
+  padding: 0px 13px;
+  margin: 6px -35px;
+  font-size: 20px;
 }
 .button-mobile {
   display: none;
@@ -118,7 +161,7 @@ button {
   display: flex;
   align-items: center;
   gap: 1%;
-  margin: 25px 0 10px 0;
+  margin: 22px 0px 28px 10px;
 }
 .filter-all-buttons {
   display: flex;
@@ -137,8 +180,17 @@ button {
   height: 40px;
   border: solid 2px var(--dark-grey);
   border-radius: 25px;
-  padding-left: 10px;
+  padding-left: 19px;
+  font-size: 16px;
+  gap: 2px;
 }
+
+.filter-button i {
+  font-size: 17px;
+  color: var(--primary-color);
+  line-height: 1;
+}
+
 .filter-button:hover {
   background-color: var(--selection-color);
 }
@@ -175,7 +227,7 @@ i {
 .hebergement-populaire {
   display: flex;
   flex-direction: row;
-  gap: 40px;
+  gap: 20px;
   margin-top: 15px;
 }
 
@@ -229,6 +281,7 @@ i {
 }
 .stars {
   display: flex;
+  font-size: 14px;
   align-items: flex-end;
 }
 a {
@@ -319,7 +372,6 @@ i[data-active="false"] {
   display: flex;
   height: 90%;
   width: 100%;
-  border: 5px solid #ffffff;
   border-radius: 20px 20px 0px 0px;
   box-sizing: border-box;
   object-fit: cover;
@@ -331,13 +383,13 @@ i[data-active="false"] {
 
 .all-footer {
   background-color: var(--grey);
-  padding: 40px;
-  margin-top: 60px;
+  padding: 10px 5px;
+  margin-top: 30px;
 }
 .column-footer {
   display: flex;
   flex-direction: row;
-  gap: 20%;
+  gap: 16%;
 }
 /* footer */
 

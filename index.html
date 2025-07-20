@@ -24,10 +24,8 @@
           src="Images/logo/Booki.png"
           alt="logo écrit Booki en bleu"
         />
-        <ul>
-          <li>
-            <a class="menu" href="#hebergements">Hébergements</a>
-          </li>
+        <ul class="nav-links">
+          <li><a class="menu" href="#hebergements">Hébergements</a></li>
           <li><a class="menu" href="#activites">Activités</a></li>
         </ul>
       </nav>
@@ -36,28 +34,29 @@
       <section>
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <p>En plein centre-ville ou en pleine nature</p>
-        <form>
-          <img
-            class="position-search"
-            src="Images/Vector.svg"
-            alt="icone position"
-          />
-          <fieldset class="form">
-            <label for="search"></label>
+        <div class="search-container">
+          <form class="search-form">
+            <img
+              class="position-search"
+              src="Images/Vector.svg"
+              alt="icone position"
+            />
             <input
               type="text"
               id="search"
               name="search"
               placeholder="Marseille, France"
+              class="search-input"
             />
-          </fieldset>
-          <button>
-            <span class="button-desktop">Rechercher</span>
-            <span class="button-mobile">
+            <!-- Bouton desktop -->
+            <button type="submit" class="button-desktop">Rechercher</button>
+
+            <!-- Bouton mobile -->
+            <button type="submit" class="button-mobile">
               <i class="fa-solid fa-magnifying-glass"></i>
-            </span>
-          </button>
-        </form>
+            </button>
+          </form>
+        </div>
       </section>
       <section class="filter">
         <h2>Filtres</h2>
@@ -78,8 +77,11 @@
               <h3 class="filter-text">Romantique</h3>
             </div>
             <div class="filter-button">
-              <i class="fa-solid fa-dog"></i>
-              <h3 class="filter-text">Animaux autorisés</h3>
+              <i
+                class="fa-solid fa-fire"
+                style="font-size: 16px; color: var(--primary-color)"
+              ></i>
+              <h3 class="filter-text">Nos pépites</h3>
             </div>
           </div>
         </article>
@@ -92,7 +94,7 @@
       </div>
       <div class="hebergement-populaire">
         <section class="hebergement">
-          <h1 id="hebergements">Hébergements à Marseille</h1>
+          <h4 id="hebergements">Hébergements à Marseille</h4>
           <article class="all-card">
             <a class="card" href="#">
               <img
@@ -102,7 +104,7 @@
               />
               <div class="container">
                 <div>
-                  <h2 class="titre-card">Hôtel du port</h2>
+                  <h5 class="titre-card">Hôtel du port</h5>
                   <p class="text-card">Nuit à partir de 52 €</p>
                 </div>
                 <div class="stars">
@@ -122,7 +124,7 @@
               />
               <div class="container">
                 <div>
-                  <h2 class="titre-card">Hôtel Chez Amina</h2>
+                  <h5 class="titre-card">Hôtel Chez Amina</h5>
                   <p class="text-card">Nuit à partir de 96 €</p>
                 </div>
                 <div class="stars">
@@ -142,7 +144,7 @@
               />
               <div class="container">
                 <div>
-                  <h2 class="titre-card">Hôtel Les mouettes</h2>
+                  <h5 class="titre-card">Hôtel Les mouettes</h5>
                   <p class="text-card">Nuit à partir de 76 €</p>
                 </div>
                 <div class="stars">
@@ -162,7 +164,7 @@
               />
               <div class="container">
                 <div>
-                  <h2 class="titre-card">Hôtel de la mer</h2>
+                  <h5 class="titre-card">Hôtel de la mer</h5>
                   <p class="text-card">Nuit à partir de 46 €</p>
                 </div>
                 <div class="stars">
@@ -182,7 +184,7 @@
               />
               <div class="container">
                 <div>
-                  <h2 class="titre-card">Auberge La Cannebière</h2>
+                  <h5 class="titre-card">Auberge La Cannebière</h5>
                   <p class="text-card">Nuit à partir de 25 €</p>
                 </div>
                 <div class="stars">
@@ -202,7 +204,7 @@
               />
               <div class="container">
                 <div>
-                  <h2 class="titre-card">Auberge Le Panier</h2>
+                  <h5 class="titre-card">Auberge Le Panier</h5>
                   <p class="text-card">Nuit à partir de 23 €</p>
                 </div>
                 <div class="stars">
@@ -215,11 +217,11 @@
               </div>
             </a>
           </article>
-          <h2>Afficher plus</h2>
+          <h4>Afficher plus</h4>
         </section>
         <section class="populaire">
           <div class="titre-icone">
-            <h1>Les plus populaires</h1>
+            <h4>Les plus populaires</h4>
             <i class="fa-solid fa-chart-line"></i>
           </div>
           <article class="all-card-populaire">
@@ -231,7 +233,7 @@
               />
               <div class="container-populaire">
                 <div>
-                  <h2 class="titre-card-populaire">Hôtel Le soleil du matin</h2>
+                  <h5 class="titre-card-populaire">Hôtel Le soleil du matin</h5>
                   <p class="text-card-populaire">Nuit à partir de 25 €</p>
                 </div>
                 <div class="stars">
@@ -251,9 +253,9 @@
               />
               <div class="container-populaire">
                 <div>
-                  <h2 class="titre-card-populaire">
+                  <h5 class="titre-card-populaire">
                     Chambre d'hôtes Au coeur de l'eau
-                  </h2>
+                  </h5>
                   <p class="text-card-populaire">Nuit à partir de 71 €</p>
                 </div>
                 <div class="stars">
@@ -273,7 +275,7 @@
               />
               <div class="container-populaire">
                 <div>
-                  <h2 class="titre-card-populaire">Hôtel Bleu et Blanc</h2>
+                  <h5 class="titre-card-populaire">Hôtel Bleu et Blanc</h5>
                   <p class="text-card-populaire">Nuit à partir de 68 €</p>
                 </div>
                 <div class="stars">
@@ -289,7 +291,7 @@
         </section>
       </div>
       <section class="activite">
-        <h1 id="activites">Activités à Marseille</h1>
+        <h4 id="activites">Activités à Marseille</h4>
         <article class="all-card-activite">
           <a class="card-activite" href="#">
             <img
@@ -298,7 +300,7 @@
               alt="port bateaux"
             />
             <div class="container">
-              <h2>Vieux-Port</h2>
+              <h5>Vieux-Port</h5>
             </div>
           </a>
           <a class="card-activite" href="#">
@@ -308,7 +310,7 @@
               alt="Rochers avec fort en pière en fond"
             />
             <div class="container">
-              <h2>Fort de Pomègues</h2>
+              <h5>Fort de Pomègues</h5>
             </div>
           </a>
           <a class="card-activite" href="#">
@@ -318,7 +320,7 @@
               alt="Vue depuis des roches sur une étendue d'eau"
             />
             <div class="container">
-              <h2>Parc national des Calanques</h2>
+              <h5>Parc national des Calanques</h5>
             </div>
           </a>
           <a class="card-activite" href="#">
@@ -328,7 +330,7 @@
               alt="Basilique dominant la ville"
             />
             <div class="container">
-              <h2>Notre-Dame-de-la-Garde</h2>
+              <h5>Notre-Dame-de-la-Garde</h5>
             </div>
           </a>
         </article>
@@ -337,18 +339,18 @@
     <footer class="all-footer">
       <div class="column-footer">
         <div>
-          <h2>A propos</h2>
+          <h6>A propos</h6>
           <p>Fonctionnement du site</p>
           <p>Conditions générales</p>
           <p>Données et confidentialité</p>
         </div>
         <div>
-          <h2>Nos hébergements</h2>
+          <h6>Nos hébergements</h6>
           <p>Charte qualité</p>
           <p>Proposer votre hôtel</p>
         </div>
         <div>
-          <h2>Assistance</h2>
+          <h6>Assistance</h6>
           <p>Centre d'aide</p>
           <p>Nous contacter</p>
         </div>
